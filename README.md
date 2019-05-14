@@ -5,10 +5,12 @@ This example shows how to operate on MySQL database based  on `database/sql` int
 
 It creats SQL as follows:
 
-    CREATE TABLE `userinfo` (
-        `uid` INT(10) NOT NULL AUTO_INCREMENT,
-        `username` VARCHAR(64) NULL DEFAULT NULL,
-        `department` VARCHAR(64) NULL DEFAULT NULL,
-        `created` DATE NULL DEFAULT NULL,
-        PRIMARY KEY (`uid`)
-	);
+```SQL
+CREATE TABLE `userinfo` (
+    `uid` INT(10) NOT NULL AUTO_INCREMENT,
+    `username` VARCHAR(64) NULL DEFAULT NULL,
+    `department` VARCHAR(64) NULL DEFAULT NULL,
+    `created` DATE NULL DEFAULT NULL,
+    PRIMARY KEY (`uid`)
+);
+```
